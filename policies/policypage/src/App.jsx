@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import HbCafe from './component/refundpolicy/RefundPolicy.jsx'
 import RefundPolicy from './component/refundpolicy/RefundPolicy.jsx'
+import ContactInformation from './component/contact-information/ContactInformation.jsx'
 
 
 function App() {
@@ -9,6 +9,8 @@ function App() {
   return (
     <>
     <RefundPolicy/>
+    <hr />
+    <ContactInformation/>
     </>
   )
 }

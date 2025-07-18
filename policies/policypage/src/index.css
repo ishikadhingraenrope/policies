@@ -1,1 +1,4 @@
 @import "tailwindcss";
+h3,ul,p,li,h2{
+    text-align: left;
+}
