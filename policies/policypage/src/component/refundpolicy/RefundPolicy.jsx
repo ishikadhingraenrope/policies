@@ -10,17 +10,23 @@ export default function RefundPolicy() {
 
         <p className="mb-6 text-lg text-gray-700">
           We want you to be completely satisfied with your order from HB Cafe! Please read our
-          refund policy carefully to understand your options.
+refund policy carefully to understand your options.
+
         </p>
 
         {/* Section 1 */}
         <div className="mb-6">
           <h3 className="text-2xl font-semibold text-gray-800 mb-3">1. Eligibility for Refund</h3>
           <ul className="list-disc list-inside text-base space-y-2 text-gray-700">
-            <li>Incorrect Order: Received an item different from what you ordered.</li>
-            <li>Missing Items: Paid item missing from your order.</li>
-            <li>Poor Quality/Spoiled Food: Spoiled or unfit food (not taste-based).</li>
-            <li>Damaged Packaging: Affects food quality or safety.</li>
+            <li><span>Incorrect Order:</span> If you receive an item that is different from what you ordered (e.g.,
+wrong meal, wrong size)</li>
+            <li><span>Missing Items:</span> If an item you paid for is missing from your order.</li>
+            <li><span>Poor Quality/Spoiled Food:</span>If the food you receive is clearly spoiled, undercooked,
+or otherwise unfit for consumption. Please note, subjective taste preferences generally
+do not qualify for a refund unless the food is demonstrably bad.</li>
+            <li><span>Damaged Packaging:</span> If your order arrives with significant damage to the packaging
+that affects the quality or safety of the food inside.
+</li>
           </ul>
         </div>
 
@@ -28,21 +34,34 @@ export default function RefundPolicy() {
         <div className="mb-6">
           <h3 className="text-2xl font-semibold text-gray-800 mb-3">2. Non-Refundable Items/Situations</h3>
           <ul className="list-disc list-inside text-base space-y-2 text-gray-700">
-            <li>Change of Mind after placing or receiving an order.</li>
-            <li>Minor delivery delays due to traffic or weather.</li>
-            <li>Incorrect delivery information provided by you.</li>
-            <li>Orders placed by mistake — handled at our discretion if prepared.</li>
+            <li><span>Change of Mind :</span> We cannot offer refunds or exchanges if you simply change your
+mind after placing or receiving your order.</li>
+            <li><span>Delayed Delivery (within reasonable limits):</span> While we strive for timely delivery,
+minor delays due to unforeseen circumstances (e.g., traffic, weather) do not typically
+qualify for a refund.</li>
+            <li><span>Incorrect Information Provided:</span> If you provided an incorrect address, contact
+number, or other details that led to a failed delivery, a refund will not be issued.</li>
+            <li><span>Orders Placed in Error:</span> If you accidentally placed an order, please contact us
+immediately (see "Cancellation Policy" below). Refunds for accidental orders are at
+our discretion if the order has already been prepared or dispatched.</li>
           </ul>
         </div>
 
         {/* Section 3 */}
         <div className="mb-6">
           <h3 className="text-2xl font-semibold text-gray-800 mb-3">3. How to Request a Refund</h3>
+          <h4 className=" font-semibold text-gray-800 mb-3 text-left">To request a refund, you must:
+</h4>
           <ol className="list-decimal list-inside text-base space-y-2 text-gray-700">
-            <li>Contact us within 1 minute of receiving the order or after a missed delivery window.</li>
-            <li>Keep your order number handy (in order history).</li>
-            <li>Clearly describe the issue.</li>
-            <li>Provide photos if requested.</li>
+            <li><span>Contact Us Immediately:</span> Notify us within 1 minute of receiving your order (for
+issues like incorrect/missing items or quality concerns). For undelivered orders,
+contact us as soon as the delivery window has passed.</li>
+            <li><span>Provide Order Details:</span> Have your order number ready. You can find this in your
+order history after logging into your account.</li>
+            <li><span>Describe the Issue:</span> Clearly explain the problem with your order</li>
+            <li><span>Provide Evidence (if applicable):</span> For quality issues or incorrect items, we may
+request photographic evidence.
+</li>
           </ol>
 
           <p className="mt-4 text-gray-700">You can contact us via:</p>
@@ -56,8 +75,14 @@ export default function RefundPolicy() {
         <div className="mb-6">
           <h3 className="text-2xl font-semibold text-gray-800 mb-3">4. Refund Process</h3>
           <ul className="list-disc list-inside text-base space-y-2 text-gray-700">
-            <li><strong>Online Payments:</strong> Refunded to the original method within 3–7 business days.</li>
-            <li><strong>COD Orders:</strong> Refunded as store credit or UPI/bank transfer within 2–5 business days after verification.</li>
+            <li><strong>Online Payments:</strong>Refunds for online payments will be processed to the original
+payment method within 3-7 business days. The time it takes for the refund to reflect in
+your account may vary depending on your bank or payment provider</li>
+            <li><strong>Cash on Delivery (COD): </strong> : For COD orders, refunds will typically be issued as store
+credit that can be used for future purchases, or via a digital payment method (e.g.,
+UPI, bank transfer) after verification, within 2-5 business days. Please ensure your
+mobile number is updated in your profile for such transfers.
+</li>
           </ul>
         </div>
 
@@ -65,9 +90,13 @@ export default function RefundPolicy() {
         <div className="mb-6">
           <h3 className="text-2xl font-semibold text-gray-800 mb-3">5. Cancellation Policy</h3>
           <ul className="list-disc list-inside text-base space-y-2 text-gray-700">
-            <li>Cancel within 1 minute if not prepared.</li>
-            <li>Call us at +91 99991 02485 immediately.</li>
-            <li>Late cancellations may not be refunded fully.</li>
+            <li>You may cancel your order within 1 minute of placing it, provided the order has not
+yet been prepared or dispatched.</li>
+            <li>To cancel an order, please contact us immediately at +91 99991 02485.
+</li>
+            <li>Cancellations made after the preparation or dispatch of the order may not be eligible
+for a full refund and will be at our discretion.
+</li>
           </ul>
         </div>
 
@@ -75,9 +104,11 @@ export default function RefundPolicy() {
         <div className="mb-8">
           <h3 className="text-2xl font-semibold text-gray-800 mb-3">6. Your Account Information</h3>
           <p className="text-base text-gray-700">
-            Make sure your name, phone number, and address are accurate in your profile.
-            This helps with delivery and refund processing. You can update these by logging in
-            and checking your order history.
+            Please ensure your name, mobile number, and address are accurate and up-to-date in your
+user profile. This information is crucial for successful delivery and for processing any refunds
+or communications. You can access and update this information by logging into your account
+and checking your order history.
+
           </p>
         </div>
 
